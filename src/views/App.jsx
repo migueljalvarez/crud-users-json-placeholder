@@ -12,7 +12,8 @@ function App() {
       {users.length > 0 ? (
         users.map((user) => (
           <div key={user.id}>
-            <p>{user.name}</p>
+            <p>name: {user.name}</p>
+            <p>email: {user.email}</p>
           </div>
         ))
       ) : (
